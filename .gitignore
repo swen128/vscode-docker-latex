@@ -1,3 +1,1 @@
-*.pdf
-*.dvi
-*.synctex.gz
+/build/

@@ -1,6 +1,0 @@
-{
-    "latex-workshop.latex.external.build.command": "docker-compose",
-    "latex-workshop.latex.external.build.args": ["up"],
-    "latex-workshop.synctex.afterBuild.enabled": true,
-    "latex-workshop.view.pdf.viewer": "tab"
-}

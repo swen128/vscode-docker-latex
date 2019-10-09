@@ -22,4 +22,4 @@ RUN apk add --no-cache perl fontconfig-dev freetype-dev && \
     rm -fr /tmp/install-tl-unx && \
     apk del .fetch-deps
 
-WORKDIR /workdir
+WORKDIR /workspace

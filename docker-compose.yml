@@ -1,7 +1,0 @@
-version: '3'
-services:
-  latex:
-    build: .
-    command: sh -c "latexmk -gg main.tex && latexmk -c main.tex"
-    volumes:
-      - ./:/workdir
