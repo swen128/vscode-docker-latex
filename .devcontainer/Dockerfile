@@ -2,7 +2,7 @@ FROM frolvlad/alpine-glibc:alpine-3.10_glibc-2.30
 
 ENV PATH /usr/local/texlive/2019/bin/x86_64-linux:$PATH
 
-RUN apk add --no-cache perl fontconfig-dev freetype-dev && \
+RUN apk add --no-cache git perl fontconfig-dev freetype-dev && \
     apk add --no-cache --virtual .fetch-deps wget xz tar && \
     mkdir /tmp/install-tl-unx && \
     wget -qO - ftp://tug.org/historic/systems/texlive/2019/install-tl-unx.tar.gz | \
